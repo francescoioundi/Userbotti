@@ -1,0 +1,50 @@
+REQUISITI:
+-VPS Ubuntu 16.04 (versione precedenti non testato)
+
+PASSAGGI DA ESEGUIRE SULLA VPS:
+
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
+
+sudo apt-get install git
+
+sudo apt-get install curl
+
+sudo curl -s https://getcomposer.org/installer | php
+
+sudo mv composer.phar /usr/local/bin/composer (Se danno errore, vai avanti, vuol dire che sono già installati)
+
+cd /var
+
+wget http://daniil.it/php.sh
+
+sudo chmod 777 php.sh
+
+./php.sh
+
+git clone http://github.com/danog/MadelineProto
+
+cd MadelineProto
+
+apt install composer
+
+composer update
+
+sudo mkdir userbotti
+
+A questo punto carica il file nella cartella userbotti. Si trova in var, dentro MadelineProto.
+
+Poi fai:
+
+cd userbotti
+
+sudo chmod 777 userbotti.php
+
+screen
+
+php userbot.php +1488485 (numero, da inserire tutto attaccato, nel caso usiate un numero italiano: +39477447 [numero])
+
+Buona stormata :D
