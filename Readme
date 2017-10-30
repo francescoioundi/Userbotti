@@ -1,2 +1,23 @@
 # Userbotti
-Userbotti per floddare e stormare, basati su MadelineProto
+Userbot creati con base MadelineProto, usabili su Telegram.
+Dispongono dei seguenti comandi:
+
+.join @gruppo/link
+
+.flood numerodimessaggi messaggio
+(ES.: .flood 2 ciao =
+ciao
+ciao)
+
+.nome (nome)
+
+.username @username
+(se l'username è occupato invierà un messaggio di errore)
+
+ATTENZIONE:
+L'eccessivo spam di comandi potrebbe mandare gli userbotti in floodwait.
+Questo vuol dire che bisogna regolarsi nel dare comandi troppo velocemente, soprattutto nelle VPS piu lente.
+Se gli userbotti vengono limitati non potranno scrivere nei gruppi pubblici, ma solo privati (quelli senza @)
+
+Per qualunque problema scrivetemi su Telegram:
+@Gabred @GabredLimitatiBot
