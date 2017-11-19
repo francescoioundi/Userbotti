@@ -1,7 +1,7 @@
 REQUISITI:
 -VPS Ubuntu 16.04 (versione precedenti non testato)
 
-MODIFICARE LO SCRIPT:
+COME MODIFICARE LO SCRIPT:
 (lo trovi in Script, consigliato modificarlo con Notepad++)
 
 Riga 15: inserisci il tuo api_id e il tuo api_hash dove è scritto :INSERISCIQUIAPIID, "INSERISCIQUIAPIHASH"
