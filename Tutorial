@@ -38,6 +38,6 @@ Poi fai:
 cd userbotti
 sudo chmod 777 userbotti.php
 screen
-php userbot.php +1488485 (numero, da inserire tutto attaccato, nel caso usiate un numero italiano: +39477447 [numero])
+php userbotti.php +1488485 (numero, da inserire tutto attaccato, nel caso usiate un numero italiano: +39477447 [numero])
 
 Buona stormata :D
